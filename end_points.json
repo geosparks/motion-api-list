@@ -1,0 +1,168 @@
+{	
+	"module": "users",
+	"title": "get user",
+	"endpoint": "/api/user/",
+    "method": "GET"
+},
+{
+	"module": "users",
+	"title": "update user",
+	"endpoint": "/api/user/",
+	"method": "PUT"
+},
+{	
+	"module": "locations",
+	"title": "get user location",
+	"endpoint": "/api/location/",
+    "method": "GET"
+},
+{
+	"module": "trips",
+	"title": "create trip",
+	"endpoint": "/api/trips/",
+    "method": "POST"
+},
+{
+	"module": "trips",
+	"title": "get trip",
+    "endpoint": "/api/trips/",
+    "method": "GET"
+},
+{
+	"module": "trips",
+	"title": "update trip",
+    "endpoint": "/api/trips/",
+    "method": "PUT"
+},
+{
+	"module": "trips",
+	"title": "get trip summary",
+    "endpoint": "/api/trips/summary/",
+    "method": "GET"
+},
+{
+	"module": "insights",
+	"title": "post user insights",
+    "endpoint": "/api/insights/",
+    "method": "POST"
+},
+{
+	"module": "insights",
+	"title": "get user insights",
+    "endpoint": "/api/insights/poi/",
+    "method": "GET"
+},
+{
+	"module": "insights",
+	"title": "get user insights",
+    "endpoint": "/api/insights/work/",
+    "method": "GET"
+},
+{
+	"module": "insights",
+	"title": "get user insights",
+    "endpoint": "/api/insights/home/",
+    "method": "GET"
+},
+{
+	"module": "insights",
+	"title": "get user insights",
+    "endpoint": "/api/insights/visits/",
+    "method": "GET"
+},
+{
+	"module": "search",
+	"title": "get nearby users",
+    "endpoint": "/api/user/nearby/",
+    "method": "POST"
+},
+{
+	"module": "search",
+	"title": "search users",
+    "endpoint": "/api/search/users/",
+    "method": "GET"
+},
+{
+	"module": "search",
+	"title": "search geofences",
+    "endpoint": "/api/search/geofences/",
+    "method": "GET"
+},
+{
+	"module": "search",
+	"title": "routes distance",
+    "endpoint": "/api/routes/distance/",
+    "method": "GET"
+},
+{
+	"module": "geo coding",
+	"title": "ip geoceoding",
+    "endpoint": "/api/geocoding/ip/",
+    "method": "GET"
+},
+{
+	"module": "geo coding",
+	"title": "forward geocoding",
+    "endpoint": "/api/geocoding/forward/",
+    "method": "GET"
+},
+{
+	"module": "geo coding",
+	"title": "reverse geocoding",
+    "endpoint": "/api/geocoding/reverse/",
+    "method": "GET"
+},
+{
+	"module": "geofence",
+	"title": "create geofence",
+    "endpoint": "/api/geofence/",
+    "method": "POST"
+},
+{
+	"module": "geofence",
+	"title": "update geofence",
+    "endpoint": "/api/geofence/",
+    "method": "PUT"
+},
+{
+	"module": "geofence",
+	"title": "get geofence",
+    "endpoint": "/api/geofence/",
+    "method": "GET"
+},
+{
+	"module": "geofence",
+	"title": "delete geofence",
+    "endpoint": "/api/geofence/",
+    "method": "DELETE"
+},
+{
+	"module": "events",
+	"title": "get user events",
+    "endpoint": "/api/event/",
+    "method": "PUT"
+},
+{
+	"module": "moving geofences",
+	"title": "create moving geofences",
+    "endpoint": "/api/moving-geofence/",
+    "method": "POST"
+},
+{
+	"module": "moving geofences",
+	"title": "update moving geofences",
+    "endpoint": "/api/moving-geofence/",
+    "method": "PUT"
+},
+{
+	"module": "moving geofences",
+	"title": "get moving geofences",
+    "endpoint": "/api/moving-geofence/",
+    "method": "GET"
+},
+{
+	"module": "moving geofences",
+	"title": "get moving geofences",
+    "endpoint": "/api/moving-geofence/",
+    "method": "DELETE"
+}
