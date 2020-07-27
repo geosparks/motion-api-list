@@ -18,12 +18,6 @@
 		"method": "PUT"
 	},
 	{	
-		"module": "users",
-		"title": "delete user",
-		"endpoint": "/api/user/",
-	    "method": "DELETE"
-	},
-	{	
 		"module": "locations",
 		"title": "get user location",
 		"endpoint": "/api/location/",
