@@ -1,11 +1,5 @@
 [
 	{	
-	"module": "loosers",
-	"title": "get user",
-	"endpoint": "/api/looser/",
-	"method": "GET"
-	},
-	{	
 		"module": "users",
 		"title": "get user",
 		"endpoint": "/api/user/",
