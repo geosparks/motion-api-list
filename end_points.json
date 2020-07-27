@@ -5,6 +5,12 @@
 		"endpoint": "/api/user/",
 	    "method": "GET"
 	},
+	{	
+		"module": "users",
+		"title": "create user",
+		"endpoint": "/api/user/",
+	    "method": "POST"
+	},
 	{
 		"module": "users",
 		"title": "update user",
@@ -12,10 +18,22 @@
 		"method": "PUT"
 	},
 	{	
+		"module": "users",
+		"title": "delete user",
+		"endpoint": "/api/user/",
+	    "method": "DELETE"
+	},
+	{	
 		"module": "locations",
 		"title": "get user location",
 		"endpoint": "/api/location/",
 	    "method": "GET"
+	},
+	{	
+		"module": "locations",
+		"title": "delete user location",
+		"endpoint": "/api/location/",
+	    "method": "DELETE"
 	},
 	{
 		"module": "trips",
@@ -142,6 +160,18 @@
 		"title": "get user events",
 	    "endpoint": "/api/event/",
 	    "method": "PUT"
+	},
+	{
+		"module": "events",
+		"title": "get trip events",
+	    "endpoint": "/api/event/trips/",
+	    "method": "GET"
+	},
+	{
+		"module": "events",
+		"title": "get nearby events",
+	    "endpoint": "/api/event/nearby/",
+	    "method": "GET"
 	},
 	{
 		"module": "moving geofences",
