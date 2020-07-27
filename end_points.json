@@ -1,5 +1,11 @@
 [
 	{	
+	"module": "loosers",
+	"title": "get user",
+	"endpoint": "/api/looser/",
+	"method": "GET"
+	},
+	{	
 		"module": "users",
 		"title": "get user",
 		"endpoint": "/api/user/",
@@ -16,6 +22,12 @@
 		"title": "update user",
 		"endpoint": "/api/user/",
 		"method": "PUT"
+	},
+	{	
+		"module": "users",
+		"title": "delete user",
+		"endpoint": "/api/user/",
+	    "method": "DELETE"
 	},
 	{	
 		"module": "locations",
