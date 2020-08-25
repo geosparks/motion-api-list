@@ -159,7 +159,7 @@
 		"module": "events",
 		"title": "get user events",
 	    "endpoint": "/api/event/",
-	    "method": "PUT"
+	    "method": "GET"
 	},
 	{
 		"module": "events",
